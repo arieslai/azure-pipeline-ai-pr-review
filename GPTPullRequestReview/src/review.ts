@@ -46,7 +46,7 @@ export async function reviewFile(targetBranch: string, fileName: string, httpsAg
           max_tokens: 500,
           messages: [{
             role: "user",
-            content: instructions
+            content: `${instructions}\n, patch : ${patch}}`
           }]
         })
       });
