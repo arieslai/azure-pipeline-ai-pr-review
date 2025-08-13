@@ -1,10 +1,10 @@
 {
-  "id": "962a2b6e-0555-477b-b8dc-40a7af3f0c8b",
-  "name": "AIPullRequestReview",
-  "friendlyName": "AI PR Review",
-  "description": "This task uses OpenAi API to review and leave comments on PullRequests",
-  "author": "Jacques Saunders",
-  "helpMarkDown": "[More Information](https://github.com/97saundersj/azure-pipeline-ai-pr-review)",
+  "id": "8ba30830-2713-4803-8a72-94a1eef798b0",
+  "name": "GPTPRReviewer",
+  "friendlyName": "GPT PR Reviewer",
+  "description": "This task uses OpenAI API to review and leave comments on Pull Requests",
+  "author": "Aries Lai",
+  "helpMarkDown": "[More Information](https://github.com/arieslai/azure-pipeline-ai-pr-review)",
   "category": "Utility",
   "visibility": [
     "Build"
@@ -12,11 +12,11 @@
   "demands": [],
   "version": {
     "Major": "0",
-    "Minor": "1",
-    "Patch": "17"
+    "Minor": "0",
+    "Patch": "1"
   },
   "minimumAgentVersion": "1.95.0",
-  "instanceNameFormat": "AIPullRequestReview $(message)",
+  "instanceNameFormat": "GPTPRReviewer $(message)",
   "inputs": [
     {
       "name": "api_key",

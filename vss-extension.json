@@ -1,9 +1,9 @@
 {
     "manifestVersion": 1,
-    "id": "AIPullRequestReview",
-    "name": "AI PR Review",
-    "version": "0.1.17",
-    "publisher": "97Saundersj",
+    "id": "GPTPRReviewer",
+    "name": "Azure OpenAI GPT PR Reviewer",
+    "version": "0.0.1",
+    "publisher": "arieslai",
     "galleryFlags": [
         "Public",
         "Preview"
@@ -13,7 +13,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "A task that reviews Pull Requests using GPT models from OpenAI",
+    "description": "This task uses OpenAI API to review and leave comments on Pull Requests",
     "categories": [
         "Azure Pipelines"
     ],
@@ -33,7 +33,7 @@
     ],
     "repository" : {
         "type" : "git",
-        "uri" : "https://github.com/97saundersj/azure-pipeline-ai-pr-review"
+        "uri" : "https://github.com/arieslai/azure-pipeline-ai-pr-review"
     },
     "content": {
         "details": {
