@@ -22,7 +22,7 @@ export async function reviewFile(targetBranch: string, fileName: string, httpsAg
       console.log(patch)
 
       const response = await openai.createChatCompletion({
-        model: tl.getInput('model') || defaultOpenAIModel,
+        model: tl.getInput('model_name') || defaultOpenAIModel,
         messages: [
           {
             role: "system",

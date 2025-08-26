@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "GPTPRReviewer",
     "name": "Azure OpenAI GPT PR Reviewer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "arieslai",
     "galleryFlags": [
         "Public",
