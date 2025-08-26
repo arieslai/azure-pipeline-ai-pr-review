@@ -22,8 +22,9 @@ async function run() {
       tl.setResult(tl.TaskResult.Failed, 'No Api Key provided!');
       return;
     }
-
+    
     if (aoiEndpoint == undefined) {
+      console.log(`aoiEndpoint undefined.`);
       const openAiConfiguration = new Configuration({
         apiKey: apiKey,
       });

@@ -39,6 +39,7 @@ export async function reviewFile(targetBranch: string, fileName: string, httpsAg
       choices = response.data.choices
     }
     else if (aoiEndpoint) {
+      console.log(`Sending changes to aoiEndpoint:${aoiEndpoint}`)
       const request = await fetch(aoiEndpoint, {
         method: 'POST',
         headers: { 'api-key': `${apiKey}`, 'Content-Type': 'application/json' },
