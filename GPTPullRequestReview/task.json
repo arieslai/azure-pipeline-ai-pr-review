@@ -13,7 +13,7 @@
   "version": {
     "Major": "0",
     "Minor": "0",
-    "Patch": "2"
+    "Patch": "3"
   },
   "minimumAgentVersion": "1.95.0",
   "instanceNameFormat": "CustomGPTPRReviewer $(message)",
@@ -27,12 +27,13 @@
       "helpMarkDown": "Api key of OpenAi or Azure OpenAI."
     },
     {
-      "name": "model",
+      "name": "model_name",
       "type": "pickList",
       "label": "OpenAI model",
       "required": false,
       "options": {
         "": "",
+        "gpt-4.1": "GPT 4.1",
         "gpt-4": "GPT 4",
         "gpt-3.5-turbo": "GPT 3.5 Turbo",
         "gpt-3.5-turbo-16k": "GPT 3.5 Turbo 16k"
@@ -40,7 +41,7 @@
       "helpMarkDown": "The OpenAI model to use. not used if you use Azure OpenAI. if no model is selected, the GPT 3.5 Turbo model is used."
     },
     {
-      "name": "aoi_endpoint",
+      "name": "aoai_endpoint",
       "type": "string",
       "label": "Azure OpenApi Endpoint",
       "defaultValue": "",
