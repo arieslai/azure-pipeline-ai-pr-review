@@ -107,6 +107,6 @@ dist
 
 **/.DS_Store
 
-*.vsix
+# *.vsix
 
 *.js
